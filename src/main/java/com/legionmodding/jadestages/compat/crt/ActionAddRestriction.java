@@ -1,6 +1,6 @@
 package com.legionmodding.jadestages.compat.crt;
 
-import com.legionmodding.jadestages.WailaStages;
+import com.legionmodding.jadestages.JadeStages;
 
 import com.blamejared.crafttweaker.api.actions.IAction;
 
@@ -18,7 +18,7 @@ public class ActionAddRestriction implements IAction {
     @Override
     public void apply () {
         
-        WailaStages.prefixes.put(this.stage, this.prefix);
+        JadeStages.prefixes.put(this.stage, this.prefix);
     }
     
     @Override

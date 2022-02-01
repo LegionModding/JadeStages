@@ -5,8 +5,8 @@ import com.blamejared.crafttweaker.api.annotations.ZenRegister;
 import org.openzen.zencode.java.ZenCodeType;
 
 @ZenRegister
-@ZenCodeType.Name("mods.WailaStages")
-public class WailaStagesCrT
+@ZenCodeType.Name("mods.JadeStages")
+public class JadeStagesCrT
 {
     @ZenCodeType.Method
     public static void addWailaStage (String stage) {

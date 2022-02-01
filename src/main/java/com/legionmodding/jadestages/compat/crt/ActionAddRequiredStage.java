@@ -1,9 +1,7 @@
 package com.legionmodding.jadestages.compat.crt;
 
 import com.blamejared.crafttweaker.api.actions.IAction;
-import com.legionmodding.jadestages.WailaStages;
-
-
+import com.legionmodding.jadestages.JadeStages;
 
 public class ActionAddRequiredStage implements IAction {
     
@@ -17,12 +15,12 @@ public class ActionAddRequiredStage implements IAction {
     @Override
     public void apply () {
         
-        WailaStages.requiredStages.add(this.stage);
+        JadeStages.requiredStages.add(this.stage);
     }
     
     @Override
     public String describe () {
         
-        return String.format("Added possible waila stage requirement %s", this.stage);
+        return String.format("Added possible Jade stage requirement %s", this.stage);
     }
 }

@@ -20,14 +20,14 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @Mod("jadestages")
-public class WailaStages
+public class JadeStages
 {
     public static final Logger LOGGER = LogManager.getLogger();
     
     public static List<String> requiredStages = new ArrayList<>();
     public static Multimap<String, String> prefixes = HashMultimap.create();
     
-    public WailaStages()
+    public JadeStages()
     {
 
     }
