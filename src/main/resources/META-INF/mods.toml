@@ -1,0 +1,46 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU Lesser General Public License"
+[[mods]]
+    modId="jadestages"
+    version="${file.jarVersion}"
+    displayName="Jade Stages"
+    credits="Darkhax for original mod and GameStages and LegionModding for porting to 1.16.5"
+    authors="LegionModding"
+    description='''Unofficial port of WailaStages to 1.16.5, uses Jade instead!'''
+[[dependencies.jadestages]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.23,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jadestages]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jadestages]]
+    modId="bookshelf"
+    mandatory=true
+    versionRange="[10.4.31,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jadestages]]
+    modId="crafttweaker"
+    mandatory=true
+    versionRange="[7.1.0.304,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jadestages]]
+    modId="gamestages"
+    mandatory=true
+    versionRange="[7.2.8,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.jadestages]]
+    modId="jade"
+    mandatory=true
+    versionRange="[2.8.1,)"
+    ordering="NONE"
+    side="BOTH"

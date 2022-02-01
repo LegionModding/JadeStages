@@ -1,8 +1,8 @@
-package com.jarhax.wailastages.compat.crt;
+package com.legionmodding.jadestages.compat.crt;
 
-import com.jarhax.wailastages.WailaStages;
+import com.legionmodding.jadestages.WailaStages;
 
-import crafttweaker.IAction;
+import com.blamejared.crafttweaker.api.actions.IAction;
 
 public class ActionAddRestriction implements IAction {
     

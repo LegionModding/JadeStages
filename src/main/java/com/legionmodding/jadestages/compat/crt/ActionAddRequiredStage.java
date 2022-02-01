@@ -1,8 +1,9 @@
-package com.jarhax.wailastages.compat.crt;
+package com.legionmodding.jadestages.compat.crt;
 
-import com.jarhax.wailastages.WailaStages;
+import com.blamejared.crafttweaker.api.actions.IAction;
+import com.legionmodding.jadestages.WailaStages;
 
-import crafttweaker.IAction;
+
 
 public class ActionAddRequiredStage implements IAction {
     
